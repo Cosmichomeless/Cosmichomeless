@@ -14,7 +14,8 @@ In my day-to-day, I immerse myself in software development, working on projects 
 <table>
   <tr>
     <td><a href="https://github.com/Cosmichomeless/CosmicHomeless">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Cosmichomeless&show_icons=true&line_height=33,5&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Raaulalonso's GitHub Stats" /></td>
-    
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Cosmichomeless&show_icons=true&line_height=33,5&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Raaulalonso's GitHub Stats" /></td> <td><a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/binary/raalonso?1337Badge=off&UM6P=off" alt="raalonso's 42 stats" /></a></td>
   </tr>
+    
+  
 </table>
