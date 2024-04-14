@@ -5,7 +5,6 @@
 
 ## Skills <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=CosmicHomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
-
 <p align="Right">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,idea,eclipse,python,pycharm,js,html,css,azure,vscode,sublime,powershell,bash,docker,git,github,windows,linux,ubuntu,arch&perline=8"" />
