@@ -12,11 +12,11 @@
 
 ## Github Stats  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
 
-![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Cosmic-Homeless&theme=dark&hide)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Cosmic-Homeless&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Cosmic-Homeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=CosmicHomeless&theme=dark&hide)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=CosmicHomeless&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=CosmicHomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
-![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cosmic-Homeless&theme=dark&hide)
+![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CosmicHomeless&theme=dark&hide)
 
 
 
