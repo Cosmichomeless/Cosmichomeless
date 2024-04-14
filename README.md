@@ -12,9 +12,13 @@
 
 ## Github Stats  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
 
-![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=CosmicHomeless&theme=tokyonight)  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=CosmicHomeless&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
-![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CosmicHomeless&theme=tokyonight)
+# 📊GitHub Stats :
+![](https://github-readme-stats.vercel.app/api?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=cosmichomeless&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+
+
+
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cosmichomeless&card_width=468&tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=6" />
 
