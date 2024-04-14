@@ -13,8 +13,8 @@
 ## Github Stats  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
 
 # 📊GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)<br/>
+![](https://github-readme-stats.vercel.app/api?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=cosmichomeless&theme=dark&hide_border=true)
 
 
