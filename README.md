@@ -11,9 +11,9 @@
 </p>
 
 ## Github Stats  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
- ![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Cosmichomeless&theme=tokyonight)  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Cosmichomeless&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
-![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cosmichomeless&theme=tokyonight)
+ ![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=CosmicHomeless&theme=tokyonight)  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=CosmicHomeless&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
+![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CosmicHomeless&theme=tokyonight)
 <table>
   <tr>
     <td><a href="https://github.com/Cosmichomeless/CosmicHomeless">
