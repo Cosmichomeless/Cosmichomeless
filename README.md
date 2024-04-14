@@ -12,14 +12,13 @@
 
 ## Github Stats  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)<br/>
+![](align="center"https://github-readme-stats.vercel.app/api/top-langs/?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)<br/>
 ![](https://github-readme-stats.vercel.app/api?username=cosmichomeless&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=cosmichomeless&theme=dark&hide_border=true)
 
 
 
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cosmichomeless&card_width=468&tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=6" />
 
 
     
