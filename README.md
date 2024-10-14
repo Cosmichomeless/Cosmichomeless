@@ -8,7 +8,7 @@
 
 
 
-## <p align="Center"> Estas son las tecnologias que conozco <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
+## <p align="Center">  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Estas son las tecnologias que conozco <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
 <p align="Center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,kotlin,mysql,python,unity,js,html,css,azure,powershell,docker,git,windows,linux,apple,figma,vscode,sublime&perline=6"" />
