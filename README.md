@@ -30,7 +30,7 @@
 
 <p align="center">
 <a href="https://github.com/Cosmichomeless">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Cosmichomeless&show_icons=true&theme=slateorange&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Cosmichomeless&show_icons=true&theme=nord&include_all_commits=true&count_private=true"/>
 </a>
 </p>
 
