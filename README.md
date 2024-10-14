@@ -1,5 +1,5 @@
-# ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/mini_banner_yellow.png)
-Hola, mi nombre es David Rodriguez pero tambien conocido como Cosmic 👋
+# ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/Mini_Banner_X56_sinfondo.png) Hola, mi nombre es David pero tambien conocido como Cosmic 
+
 ## Skills <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
 <p align="Center">
   <a href="https://skillicons.dev">
