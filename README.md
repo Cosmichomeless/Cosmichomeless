@@ -1,14 +1,19 @@
 # <p align="Center"> ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/Mini_Banner_X56_sinfondo.png) Hola, mi nombre es David tambien llamado Cosmic
-## <p align="Center"> Desarrollador de aplicaciones multiplataforma 
+
 
 ![https://github.com/Cosmichomeless]( ./Banner.gif)
 
-# <p align="Center"> Soy desarrollador desde 2024 <p align="Center">   <a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic.jpg" style="align:center:"/></a> 
-### <p align="Center"> In my day-to-day, I immerse myself in software development, working on projects that spark my curiosity and challenge my skills. My primary focus is on continuous learning, as I believe technology is ever-evolving, and there's always something new to discover.
+# <p align="Center"> Soy desarrollador de aplicaciones multiplataforma desde 2024 <p align="Center">   <a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic.jpg" style="align:center:"/></a> 
+### <p align="Center"> Me dedico al desarrollo de aplicaciones, sacando adelante proyectos que me resultan interesantes y me permiten aprender. Me centro en aprender todos los días un poco más, ya que la tecnología no espera a nadie, y siempre se puede aprender algo nuevo.
 </p>
+
+## <p></p>
+
 
 
 ## <p align="Center">  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Estas son las tecnologias que uso en mis proyectos <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
+
+
 
 
 
@@ -17,6 +22,8 @@
     <img src="https://skillicons.dev/icons?i=java,kotlin,mysql,python,unity,powershell,js,html,css,azure,docker,git,windows,linux,apple,figma,vscode,sublime&perline=6"" />
   </a>
 </p>
+
+## <p></p>
 
 
 
