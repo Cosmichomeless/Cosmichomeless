@@ -3,8 +3,7 @@
 
 ![https://github.com/Cosmichomeless]( ./Banner.gif)
 
-Soy desarrollador desde que complete mis estudios en 
-<a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic.jpg"/></a>
+# Soy desarrollador desde que complete mis estudios en <a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic(.jpg"/></a>
 
 
 ## Skills <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
