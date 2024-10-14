@@ -14,6 +14,17 @@
     <img src="https://skillicons.dev/icons?i=java,kotlin,mysql,python,unity,powershell,js,html,css,azure,docker,git,windows,linux,apple,figma,vscode,sublime&perline=6"" />
   </a>
 </p>
+
+# <p align="Center"> Os dejo algunos de mis proyectos
+
+## <p align="Center">Un Analisis DAFO interactivo 
+
+## <p align="Center"> Historia Interactiva del Señor de los anillos
+<p align="Center"> <a href="https://github.com/Cosmichomeless/Lord_of_the_Rings_CosmicHomeless"><img src="https://github.com/Cosmichomeless/Lord_of_the_Rings_CosmicHomeless/blob/main/LOTR_Cosmic.png" style="height: 60%; width:60%;"/></a>
+
+
+
+
   
 
 
