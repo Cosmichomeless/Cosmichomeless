@@ -3,7 +3,7 @@
 
 ![https://github.com/Cosmichomeless]( ./Banner.gif)
 
-# <p align="Center"> Soy desarrollador de aplicaciones multiplataforma desde 2024 <p align="Center">   <a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic.jpg" style="align:center:"/></a> 
+# <p align="Center"> Soy desarrollador de aplicaciones multiplataforma  <p align="Center">   <a href="https://www.esic.edu/"><img src="https://github.com/Cosmichomeless/Cosmichomeless/blob/main/esic.jpg" style="align:center:"/></a> 
 ### <p align="Center"> Me dedico al desarrollo de aplicaciones, sacando adelante proyectos que me resultan interesantes y me permiten aprender. Me centro en aprender todos los días un poco más, ya que la tecnología no espera a nadie, y siempre se puede aprender algo nuevo.
 </p>
 
