@@ -44,8 +44,7 @@
 ## <p></p>
 
 
-# <p align="Center">  ![https://github.com/Cosmichomeless]( ./code.gif) Os dejo algunos de mis proyectos ![https://github.com/Cosmichomeless]( ./code.gif) 
-
+ <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Os dejo alguno de mis proyectos <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
 ## <p align="Center"> Historia Interactiva del Señor de los anillos
 <p align="Center"> <a href="https://github.com/Cosmichomeless/Lord_of_the_Rings_CosmicHomeless"><img src="https://github.com/Cosmichomeless/Lord_of_the_Rings_CosmicHomeless/blob/main/LOTR_Cosmic.png" style="height: 60%; width:60%;"/></a>
   
