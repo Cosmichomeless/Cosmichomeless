@@ -1,7 +1,7 @@
 # <p align="Center"> ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/Mini_Banner_X56_sinfondo.png) Hola, mi nombre es David
 
 
-![https://github.com/Cosmichomeless]( ./Banner.gif)
+![https://github.com/Cosmichomeless]( ./banner.gif)
 
 # <p align="Center">   <p align="Center">   
 ### <p align="Center"> Me dedico al desarrollo de aplicaciones, sacando adelante proyectos que me resultan interesantes y me permiten aprender. Me centro en aprender todos los días un poco más, ya que la tecnología no espera a nadie, y siempre se puede aprender algo nuevo.
