@@ -1,4 +1,4 @@
-# <p align="Center"> ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/Mini_Banner_X56_sinfondo.png) Hola, mi nombre es Cosmic
+# <p align="Center"> ![](https://github.com/Cosmichomeless/Cosmichomeless/blob/main/Mini_Banner_X56_sinfondo.png) Hola, mi nombre es David
 
 
 ![https://github.com/Cosmichomeless]( ./Banner.gif)
