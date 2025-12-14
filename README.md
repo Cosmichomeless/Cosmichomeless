@@ -37,8 +37,8 @@
 
 <table>
   <tr>
-    <td><a href="https://github.com/Cosmichomeless/Cosmichomeless">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Cosmichomeless&show_icons=true&line_height=33,5&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="David's GitHub Stats" /></td>
+    <td><a href="https://github.com/Cosmichomeless">
+  <img align="center"src="https://github-readme-stats-eight-theta.vercel.app/api?username=Cosmichomeless&show_icons=true&theme=nord&include_all_commits=true&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21"/></td>
     <td><a href="https://github.com/Cosmichomeless/Cosmichomeless">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cosmichomeless&card_width=468&tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=4" /></td>
   </tr>
