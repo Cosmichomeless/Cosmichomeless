@@ -29,28 +29,4 @@
 
 <br>
 
-<h2 align="center">
-  <img
-    src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif"
-    width="35"
-  >
-  GitHub Analytics
-  <img
-    src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif"
-    width="35"
-  >
-</h2>
-
-<table align="center">
-  <tr>
-    <td>
-      <a href="https://github.com/Cosmichomeless">
-        <img
-          height="180"
-          src="https://github-readme-stats-eight-theta.vercel.app/api?username=Cosmichomeless&show_icons=true&theme=nord&include_all_commits=true&count_private=true"
-        />
-      </a>
-    </td>
-  
-  </tr>
-</table>
+ 
