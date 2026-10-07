@@ -59,11 +59,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-181717?style=flat-square&logo=javascript&logoColor=F7DF1E">
-  <img src="https://img.shields.io/badge/React-181717?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Next.js-181717?style=flat-square&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/HTML5-181717?style=flat-square&logo=html5&logoColor=E34F26">
-  <img src="https://img.shields.io/badge/CSS3-181717?style=flat-square&logo=css3&logoColor=1572B6">
+  <img
+    src="https://skillicons.dev/icons?i=js,react,nextjs,html,css&perline=5"
+    alt="JavaScript, React, Next.js, HTML5, CSS3"
+  />
+</p>
+
+<p align="center">
+  <sub>JavaScript · React · Next.js · HTML5 · CSS3</sub>
 </p>
 
 <p align="center">
@@ -71,11 +74,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-181717?style=flat-square&logo=nodedotjs&logoColor=5FA04E">
-  <img src="https://img.shields.io/badge/Java-181717?style=flat-square&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring_Boot-181717?style=flat-square&logo=springboot&logoColor=6DB33F">
-  <img src="https://img.shields.io/badge/REST_APIs-181717?style=flat-square">
-  <img src="https://img.shields.io/badge/SQL-181717?style=flat-square&logo=mysql&logoColor=4479A1">
+  <img
+    src="https://skillicons.dev/icons?i=nodejs,java,spring,mysql&perline=4"
+    alt="Node.js, Java, Spring Boot, SQL"
+  />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:openapiinitiative.svg?color=%236BA539" height="48" alt="REST APIs" />
+</p>
+
+<p align="center">
+  <sub>Node.js · Java · Spring Boot · REST APIs · SQL</sub>
 </p>
 
 <p align="center">
@@ -83,9 +91,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=F05032">
-  <img src="https://img.shields.io/badge/Docker-181717?style=flat-square&logo=docker&logoColor=2496ED">
-  <img src="https://img.shields.io/badge/Microsoft_Azure-181717?style=flat-square&logo=microsoftazure&logoColor=0078D4">
+  <img
+    src="https://skillicons.dev/icons?i=git,docker,azure&perline=3"
+    alt="Git, Docker, Azure"
+  />
+</p>
+
+<p align="center">
+  <sub>Git · Docker · Microsoft Azure</sub>
 </p>
 
 <p align="center">
@@ -93,10 +106,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SAP_ABAP-181717?style=flat-square&logo=sap&logoColor=0FAAFF">
-  <img src="https://img.shields.io/badge/SAP_HANA-181717?style=flat-square&logo=sap&logoColor=0FAAFF">
-  <img src="https://img.shields.io/badge/OpenSQL-181717?style=flat-square">
-  <img src="https://img.shields.io/badge/ChaRM-181717?style=flat-square">
+  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF" height="48" alt="SAP ABAP" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF" height="48" alt="SAP HANA" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/mdi:database.svg?color=%230FAAFF" height="48" alt="OpenSQL" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/mdi:source-merge.svg?color=%230FAAFF" height="48" alt="ChaRM" />
+</p>
+
+<p align="center">
+  <sub>SAP ABAP · SAP HANA · OpenSQL · ChaRM</sub>
 </p>
 
 <p align="center">
@@ -104,11 +124,22 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-181717?style=flat-square&logo=python&logoColor=3776AB">
-  <img src="https://img.shields.io/badge/Pandas-181717?style=flat-square&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Power_BI-181717?style=flat-square&logo=powerbi&logoColor=F2C811">
-  <img src="https://img.shields.io/badge/Vertex_AI-181717?style=flat-square&logo=googlecloud&logoColor=4285F4">
-  <img src="https://img.shields.io/badge/n8n-181717?style=flat-square&logo=n8n&logoColor=EA4B71">
+  <img
+    src="https://skillicons.dev/icons?i=python&perline=5"
+    alt="Python"
+  />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:pandas.svg?color=%23FFFFFF" height="48" alt="Pandas" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:powerbi.svg?color=%23F2C811" height="48" alt="Power BI" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:googlecloud.svg?color=%234285F4" height="48" alt="Vertex AI" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://api.iconify.design/simple-icons:n8n.svg?color=%23EA4B71" height="48" alt="n8n" />
+</p>
+
+<p align="center">
+  <sub>Python · Pandas · Power BI · Vertex AI · n8n</sub>
 </p>
 
 ---
