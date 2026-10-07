@@ -78,8 +78,6 @@
     src="https://skillicons.dev/icons?i=nodejs,java,spring,mysql&perline=4"
     alt="Node.js, Java, Spring Boot, SQL"
   />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:openapiinitiative.svg?color=%236BA539" height="48" alt="REST APIs" />
 </p>
 
 <p align="center">
@@ -106,13 +104,13 @@
 </p>
 
 <p align="center">
-  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF" height="48" alt="SAP ABAP" />
+  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF&width=48&height=48" width="48" height="48" alt="SAP ABAP" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF" height="48" alt="SAP HANA" />
+  <img src="https://api.iconify.design/simple-icons:sap.svg?color=%230FAAFF&width=48&height=48" width="48" height="48" alt="SAP HANA" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/mdi:database.svg?color=%230FAAFF" height="48" alt="OpenSQL" />
+  <img src="https://api.iconify.design/mdi:database.svg?color=%230FAAFF&width=48&height=48" width="48" height="48" alt="OpenSQL" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/mdi:source-merge.svg?color=%230FAAFF" height="48" alt="ChaRM" />
+  <img src="https://api.iconify.design/mdi:source-merge.svg?color=%230FAAFF&width=48&height=48" width="48" height="48" alt="ChaRM" />
 </p>
 
 <p align="center">
@@ -129,13 +127,13 @@
     alt="Python"
   />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:pandas.svg?color=%23FFFFFF" height="48" alt="Pandas" />
+  <img src="https://api.iconify.design/simple-icons:pandas.svg?color=%23FFFFFF&width=48&height=48" width="48" height="48" alt="Pandas" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:powerbi.svg?color=%23F2C811" height="48" alt="Power BI" />
+  <img src="https://api.iconify.design/simple-icons:powerbi.svg?color=%23F2C811&width=48&height=48" width="48" height="48" alt="Power BI" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:googlecloud.svg?color=%234285F4" height="48" alt="Vertex AI" />
+  <img src="https://api.iconify.design/simple-icons:googlecloud.svg?color=%234285F4&width=48&height=48" width="48" height="48" alt="Vertex AI" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://api.iconify.design/simple-icons:n8n.svg?color=%23EA4B71" height="48" alt="n8n" />
+  <img src="https://api.iconify.design/simple-icons:n8n.svg?color=%23EA4B71&width=48&height=48" width="48" height="48" alt="n8n" />
 </p>
 
 <p align="center">
