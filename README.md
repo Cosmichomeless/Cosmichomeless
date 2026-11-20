@@ -144,37 +144,74 @@
 
 ## 🚀 Featured Projects
 
-> Currently building a new set of side projects focused on Full Stack development, backend, cloud and AI.
+> A mix of full stack, backend, mobile, AI and tooling — the same cards you'll find on my [portfolio](https://iamcosmic.dev). Click any of them to open the repository.
 
-### 🌐 Full Stack Project
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/FORGE">
+        <img src="./projects/forge.svg" alt="FORGE — Full-stack SaaS" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/QueueLab">
+        <img src="./projects/queuelab.svg" alt="QueueLab — Backend · Distributed systems" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/SyncPad">
+        <img src="./projects/syncpad.svg" alt="SyncPad — Real-time · Offline-first" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/TAB">
+        <img src="./projects/tab.svg" alt="TAB — iOS app · Offline-first" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/STRIDE">
+        <img src="./projects/stride.svg" alt="STRIDE — iOS app · GPS" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/MURMUR">
+        <img src="./projects/murmur.svg" alt="MURMUR — iOS app · Audio" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/RECEIPT-SCANNER">
+        <img src="./projects/receipt-scanner.svg" alt="Receipt Scanner — iOS app · OCR" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/Atlas-AI">
+        <img src="./projects/atlas-ai.svg" alt="Atlas AI — AI · RAG" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/magictap">
+        <img src="./projects/magictap.svg" alt="MagicTap — macOS app · Gestures" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Cosmichomeless/tesela">
+        <img src="./projects/tesela.svg" alt="tesela — CLI tool · macOS" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-**Coming soon**
-
-`Next.js` `React` `Node.js` `Database` `Cloud`
-
----
-
-### ☕ Java Backend Project
-
-**Coming soon**
-
-`Java` `Spring Boot` `REST API` `SQL` `Docker`
-
----
-
-### 🤖 AI & Automation Project
-
-**Coming soon**
-
-`AI` `Automation` `n8n` `APIs` `Cloud`
-
----
-
-### 💡 Personal Product
-
-**Coming soon**
-
-A product-focused project built around solving a real problem with a polished user experience.
+<p align="center">
+  <sub>Cards are generated with <a href="./scripts/gen_cards.py"><code>scripts/gen_cards.py</code></a>.</sub>
+</p>
 
 ---
 

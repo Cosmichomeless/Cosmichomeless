@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="450" viewBox="0 0 440 450" role="img" aria-label="FORGE — Full-stack SaaS">
+<title>FORGE — Full-stack SaaS</title>
+<style>
+.rv-flow{stroke-dasharray:4 4;animation:rv-dash 1.2s linear infinite}
+.rv-draw{stroke-dasharray:320;stroke-dashoffset:320;animation:rv-draw 3.2s ease-in-out infinite}
+.rv-bar{transform-box:fill-box;transform-origin:center;animation:rv-bar 1.1s ease-in-out infinite alternate}
+.rv-scan{animation:rv-scan 2.6s ease-in-out infinite alternate}
+.rv-float{animation:rv-float 2.4s ease-in-out infinite alternate}
+@keyframes rv-dash{to{stroke-dashoffset:-16}}
+@keyframes rv-draw{0%{stroke-dashoffset:320}60%,100%{stroke-dashoffset:0}}
+@keyframes rv-bar{from{transform:scaleY(.45)}to{transform:scaleY(1)}}
+@keyframes rv-scan{from{transform:translateY(0)}to{transform:translateY(100px)}}
+@keyframes rv-float{from{transform:translateY(0)}to{transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){.rv-flow,.rv-draw,.rv-bar,.rv-scan,.rv-float{animation:none}.rv-draw{stroke-dashoffset:0}}
+</style>
+<defs>
+  <clipPath id="card"><rect width="440" height="450" rx="14"/></clipPath>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="120%" r="75%">
+    <stop offset="0" stop-color="#f2cc60" stop-opacity=".24"/><stop offset="1" stop-color="#f2cc60" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#f2cc60" flood-opacity=".4"/>
+  </filter>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="440" height="450" fill="#232329"/>
+  <rect width="440" height="156" fill="url(#grid)"/>
+  <rect width="440" height="156" fill="url(#glow)"/>
+  <path d="M0 156H440" stroke="#fff" stroke-opacity=".10"/>
+</g>
+<g transform="translate(82 9) scale(1.15)" color="#f2cc60" fill="none" stroke="currentColor"
+   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"><g><rect x="14" y="14" width="68" height="92" rx="6" opacity=".55"/><path d="M22 24h24"/></g><g><rect x="86" y="14" width="68" height="92" rx="6" opacity=".55"/><path d="M94 24h24"/></g><g><rect x="158" y="14" width="68" height="92" rx="6" opacity=".55"/><path d="M166 24h24"/></g>
+<rect x="20" y="34" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".12"/>
+<rect x="20" y="56" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".12"/>
+<rect x="20" y="78" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".12"/>
+<rect x="92" y="34" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".12"/>
+<rect class="rv-float" x="92" y="56" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".4"/>
+<rect x="164" y="34" width="56" height="16" rx="3" fill="currentColor" fill-opacity=".12"/></g>
+<text x="22" y="196" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="600" fill="#ededef">FORGE</text>
+<g>
+  <rect x="269.2" y="179" width="148.8" height="24" rx="12" fill="#f2cc60" fill-opacity=".10" stroke="#f2cc60" stroke-opacity=".45"/>
+  <circle cx="283.2" cy="191" r="3" fill="#f2cc60"/>
+  <text x="293.2" y="195" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#f2cc60">v1.0.0 · live demo</text>
+</g>
+<text x="22" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" letter-spacing=".66" fill="#f2cc60">FULL-STACK SAAS</text>
+<text x="22" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">Project management for small teams, inspired by</text><text x="22" y="269" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">Linear and Jira: organizations with roles, projects,</text><text x="22" y="290" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">issues, comments and an activity history.</text>
+<rect x="22.0" y="317" width="44.8" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="44.4" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Java</text><rect x="72.8" y="317" width="91.7" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="118.7" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Spring Boot</text><rect x="170.5" y="317" width="64.9" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="202.9" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Next.js</text><rect x="241.4" y="317" width="85.0" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="283.9" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">PostgreSQL</text><rect x="332.4" y="317" width="58.2" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="361.5" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Docker</text>
+<text x="22" y="426" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#f2cc60">View on GitHub →</text>
+<rect x=".5" y=".5" width="439" height="449" rx="14" fill="none" stroke="#fff" stroke-opacity=".12"/>
+</svg>
