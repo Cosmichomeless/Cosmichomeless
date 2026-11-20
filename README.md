@@ -42,19 +42,19 @@
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/Cosmichomeless/FORGE"><img src="./projects/forge.svg" alt="FORGE — Full-stack SaaS" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/QueueLab"><img src="./projects/queuelab.svg" alt="QueueLab — Backend · Distributed systems" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/SyncPad"><img src="./projects/syncpad.svg" alt="SyncPad — Real-time · Offline-first" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/FORGE"><img src="./projects/forge.31bc04c2.svg" alt="FORGE — Full-stack SaaS" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/QueueLab"><img src="./projects/queuelab.a191dce7.svg" alt="QueueLab — Backend · Distributed systems" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/SyncPad"><img src="./projects/syncpad.9a7e3b2b.svg" alt="SyncPad — Real-time · Offline-first" width="32%" /></a>
   <br>
-  <a href="https://github.com/Cosmichomeless/TAB"><img src="./projects/tab.svg" alt="TAB — iOS app · Offline-first" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/STRIDE"><img src="./projects/stride.svg" alt="STRIDE — iOS app · GPS" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/MURMUR"><img src="./projects/murmur.svg" alt="MURMUR — iOS app · Audio" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/TAB"><img src="./projects/tab.ebff11b0.svg" alt="TAB — iOS app · Offline-first" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/STRIDE"><img src="./projects/stride.c67552ff.svg" alt="STRIDE — iOS app · GPS" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/MURMUR"><img src="./projects/murmur.315f3e13.svg" alt="MURMUR — iOS app · Audio" width="32%" /></a>
   <br>
-  <a href="https://github.com/Cosmichomeless/RECEIPT-SCANNER"><img src="./projects/receipt-scanner.svg" alt="Receipt Scanner — iOS app · OCR" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/Atlas-AI"><img src="./projects/atlas-ai.svg" alt="Atlas AI — AI · RAG" width="32%" /></a>
-  <a href="https://github.com/Cosmichomeless/magictap"><img src="./projects/magictap.svg" alt="MagicTap — macOS app · Gestures" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/RECEIPT-SCANNER"><img src="./projects/receipt-scanner.b3df95cf.svg" alt="Receipt Scanner — iOS app · OCR" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/Atlas-AI"><img src="./projects/atlas-ai.e6dc2b7e.svg" alt="Atlas AI — AI · RAG" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/magictap"><img src="./projects/magictap.86030bb6.svg" alt="MagicTap — macOS app · Gestures" width="32%" /></a>
   <br>
-  <a href="https://github.com/Cosmichomeless/tesela"><img src="./projects/tesela.svg" alt="tesela — CLI tool · macOS" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/tesela"><img src="./projects/tesela.821566f2.svg" alt="tesela — CLI tool · macOS" width="32%" /></a>
 </p>
 
 <p align="center">

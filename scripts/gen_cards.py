@@ -7,7 +7,9 @@ ni JS en un README, pero sí imágenes SVG (con animaciones CSS internas).
 
 Uso:  python3 scripts/gen_cards.py     (escribe en ../projects/*.svg)
 """
+import hashlib
 import math
+import re
 import textwrap
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -301,14 +303,31 @@ def card(r, body_h):
 
 
 def main():
+    """Escribe projects/<nombre>.<hash>.svg y actualiza las rutas del README.
+
+    El hash del contenido va en el nombre del fichero: así, al cambiar una
+    tarjeta cambia su URL y la caché de GitHub (raw.githubusercontent.com,
+    5 min, ignora los parámetros ?v=) no puede servir una versión antigua.
+    """
     OUT.mkdir(parents=True, exist_ok=True)
+    readme = OUT.parent / "README.md"
+    text = readme.read_text(encoding="utf-8")
     # Las tarjetas de cada fila de tres comparten alto (el del contenido más largo).
     for i in range(0, len(REPOS), 3):
         row = REPOS[i:i + 3]
         body_h = max(body_height(r) for r in row)
         for r in row:
-            (OUT / f"{r['file']}.svg").write_text(card(r, body_h), encoding="utf-8")
-    print(f"{len(REPOS)} tarjetas compactas generadas en {OUT}")
+            svg = card(r, body_h)
+            name = f"{r['file']}.{hashlib.sha1(svg.encode()).hexdigest()[:8]}.svg"
+            for old in OUT.glob(f"{r['file']}.svg"):
+                old.unlink()
+            for old in OUT.glob(f"{r['file']}.*.svg"):
+                if old.name != name:
+                    old.unlink()
+            (OUT / name).write_text(svg, encoding="utf-8")
+            text = re.sub(rf"\./projects/{re.escape(r['file'])}(?:\.[0-9a-f]{{8}})?\.svg", f"./projects/{name}", text)
+    readme.write_text(text, encoding="utf-8")
+    print(f"{len(REPOS)} tarjetas compactas generadas en {OUT} y README actualizado")
 
 
 if __name__ == "__main__":
