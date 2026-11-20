@@ -3,217 +3,63 @@
 <h1 align="center">Hi, I'm David 👋</h1>
 
 <p align="center">
-  <b>Full Stack Developer</b> · Computer Engineering student @ ESIC University
+  <b>Full Stack Developer</b> · Computer Engineering student @ ESIC University<br>
+  Building projects and exploring <b>software development, cloud, data and AI</b>.
 </p>
-
-<p align="center">
-  Building projects, exploring new technologies and continuously improving in
-  <b>software development, cloud, data and AI</b>.
-</p>
-
-<p align="center">
-  <a href="https://iamcosmic.dev">
-    <img
-      src="https://img.shields.io/badge/Portfolio-Visit%20Website-181717?style=for-the-badge&logo=vercel&logoColor=white"
-      alt="Portfolio"
-    />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/david-rodr/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
-</p>
-
----
 
 ## 👨‍💻 About Me
 
-- 💻 Full Stack Developer focused on building modern applications.
-- 🎓 Currently studying **Computer Engineering at ESIC University**.
-- 🧑‍🎓 Higher Technician in **Cross-Platform Application Development (DAM)**.
-- 🏢 Professional experience with **SAP ABAP, SAP HANA, OpenSQL and ChaRM**.
-- ☁️ Interested in **software development, cloud, data and artificial intelligence**.
-- 🚀 Currently building new side projects and experimenting with new technologies.
-- 📍 Based in **Madrid, Spain**.
-
----
+- 💻 Full Stack Developer focused on building modern applications, based in **Madrid, Spain** 📍
+- 🎓 **Computer Engineering at ESIC University** · Higher Technician in **Cross-Platform Application Development (DAM)**
+- 🏢 Professional experience with **SAP ABAP, SAP HANA, OpenSQL and ChaRM**
+- 🚀 Building new side projects and exploring **cloud, data, AI and automation**
 
 ## ⚙️ Tech Stack
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img
-      src="https://skillicons.dev/icons?i=js,react,nextjs,nodejs,java,spring,python,mysql,git,docker,azure&perline=6"
-      alt="Tech Stack"
-    />
-  </a>
-</p>
-
-<br>
-
-<p align="center">
-  <b>Frontend</b>
-</p>
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=js,react,nextjs,html,css&perline=5"
-    alt="JavaScript, React, Next.js, HTML5, CSS3"
-  />
-</p>
-
-<p align="center">
-  <sub>JavaScript · React · Next.js · HTML5 · CSS3</sub>
-</p>
-
-<p align="center">
-  <b>Backend</b>
-</p>
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=nodejs,java,spring,mysql&perline=4"
-    alt="Node.js, Java, Spring Boot, SQL"
-  />
-</p>
-
-<p align="center">
-  <sub>Node.js · Java · Spring Boot · REST APIs · SQL</sub>
-</p>
-
-<p align="center">
-  <b>Cloud & DevOps</b>
-</p>
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=git,docker,azure&perline=3"
-    alt="Git, Docker, Azure"
-  />
-</p>
-
-<p align="center">
-  <sub>Git · Docker · Microsoft Azure</sub>
-</p>
-
-<p align="center">
-  <b>Enterprise</b>
-</p>
-
-<p align="center">
-  <img src="./icons/sap.svg" width="48" height="48" alt="SAP ABAP" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/sap.svg" width="48" height="48" alt="SAP HANA" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/opensql.svg" width="48" height="48" alt="OpenSQL" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/charm.svg" width="48" height="48" alt="ChaRM" />
-</p>
-
-<p align="center">
-  <sub>SAP ABAP · SAP HANA · OpenSQL · ChaRM</sub>
-</p>
-
-<p align="center">
-  <b>Data & AI</b>
-</p>
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=python&perline=5"
-    alt="Python"
-  />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/pandas.svg" width="48" height="48" alt="Pandas" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/powerbi.svg" width="48" height="48" alt="Power BI" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/vertexai.svg" width="48" height="48" alt="Vertex AI" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./icons/n8n.svg" width="48" height="48" alt="n8n" />
-</p>
-
-<p align="center">
-  <sub>Python · Pandas · Power BI · Vertex AI · n8n</sub>
-</p>
-
----
-
-## 🚀 Featured Projects
-
-> A mix of full stack, backend, mobile, AI and tooling — the same cards you'll find on my [portfolio](https://iamcosmic.dev). Click any of them to open the repository.
-
 <table align="center">
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/FORGE">
-        <img src="./projects/forge.svg" alt="FORGE — Full-stack SaaS" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/QueueLab">
-        <img src="./projects/queuelab.svg" alt="QueueLab — Backend · Distributed systems" width="100%" />
-      </a>
-    </td>
+    <td align="right" nowrap><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=js,react,nextjs,html,css&perline=5" height="40" alt="js, react, nextjs, html, css" /></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/SyncPad">
-        <img src="./projects/syncpad.svg" alt="SyncPad — Real-time · Offline-first" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/TAB">
-        <img src="./projects/tab.svg" alt="TAB — iOS app · Offline-first" width="100%" />
-      </a>
-    </td>
+    <td align="right" nowrap><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,java,spring,mysql&perline=4" height="40" alt="nodejs, java, spring, mysql" /></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/STRIDE">
-        <img src="./projects/stride.svg" alt="STRIDE — iOS app · GPS" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/MURMUR">
-        <img src="./projects/murmur.svg" alt="MURMUR — iOS app · Audio" width="100%" />
-      </a>
-    </td>
+    <td align="right" nowrap><b>Cloud &amp; DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,docker,azure&perline=3" height="40" alt="git, docker, azure" /></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/RECEIPT-SCANNER">
-        <img src="./projects/receipt-scanner.svg" alt="Receipt Scanner — iOS app · OCR" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/Atlas-AI">
-        <img src="./projects/atlas-ai.svg" alt="Atlas AI — AI · RAG" width="100%" />
-      </a>
-    </td>
+    <td align="right" nowrap><b>Enterprise</b></td>
+    <td><img src="./icons/sap.svg" height="30" align="absmiddle" alt="SAP ABAP · HANA" />&nbsp;<sub>SAP ABAP · HANA</sub>&nbsp;&nbsp;&nbsp;<img src="./icons/opensql.svg" height="30" align="absmiddle" alt="OpenSQL" />&nbsp;<sub>OpenSQL</sub>&nbsp;&nbsp;&nbsp;<img src="./icons/charm.svg" height="30" align="absmiddle" alt="ChaRM" />&nbsp;<sub>ChaRM</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/magictap">
-        <img src="./projects/magictap.svg" alt="MagicTap — macOS app · Gestures" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Cosmichomeless/tesela">
-        <img src="./projects/tesela.svg" alt="tesela — CLI tool · macOS" width="100%" />
-      </a>
-    </td>
+    <td align="right" nowrap><b>Data &amp; AI</b></td>
+    <td><img src="https://skillicons.dev/icons?i=python&perline=1" height="40" alt="python" />&nbsp;&nbsp;&nbsp;<img src="./icons/pandas.svg" height="30" align="absmiddle" alt="Pandas" />&nbsp;<sub>Pandas</sub>&nbsp;&nbsp;&nbsp;<img src="./icons/powerbi.svg" height="30" align="absmiddle" alt="Power BI" />&nbsp;<sub>Power BI</sub>&nbsp;&nbsp;&nbsp;<img src="./icons/vertexai.svg" height="30" align="absmiddle" alt="Vertex AI" />&nbsp;<sub>Vertex AI</sub>&nbsp;&nbsp;&nbsp;<img src="./icons/n8n.svg" height="30" align="absmiddle" alt="n8n" />&nbsp;<sub>n8n</sub></td>
   </tr>
 </table>
 
+## 🚀 Featured Projects
+
 <p align="center">
-  <sub>Cards are generated with <a href="./scripts/gen_cards.py"><code>scripts/gen_cards.py</code></a>.</sub>
+  <a href="https://github.com/Cosmichomeless/FORGE"><img src="./projects/forge.svg" alt="FORGE — Full-stack SaaS" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/QueueLab"><img src="./projects/queuelab.svg" alt="QueueLab — Backend · Distributed systems" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/SyncPad"><img src="./projects/syncpad.svg" alt="SyncPad — Real-time · Offline-first" width="32%" /></a>
+  <br>
+  <a href="https://github.com/Cosmichomeless/TAB"><img src="./projects/tab.svg" alt="TAB — iOS app · Offline-first" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/STRIDE"><img src="./projects/stride.svg" alt="STRIDE — iOS app · GPS" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/MURMUR"><img src="./projects/murmur.svg" alt="MURMUR — iOS app · Audio" width="32%" /></a>
+  <br>
+  <a href="https://github.com/Cosmichomeless/RECEIPT-SCANNER"><img src="./projects/receipt-scanner.svg" alt="Receipt Scanner — iOS app · OCR" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/Atlas-AI"><img src="./projects/atlas-ai.svg" alt="Atlas AI — AI · RAG" width="32%" /></a>
+  <a href="https://github.com/Cosmichomeless/magictap"><img src="./projects/magictap.svg" alt="MagicTap — macOS app · Gestures" width="32%" /></a>
+  <br>
+  <a href="https://github.com/Cosmichomeless/tesela"><img src="./projects/tesela.svg" alt="tesela — CLI tool · macOS" width="32%" /></a>
 </p>
 
----
+<p align="center">
+  <sub>More on my <a href="https://iamcosmic.dev">portfolio</a> · each card links to its repository</sub>
+</p>
 
 ## 📊 GitHub Analytics
 
@@ -222,17 +68,6 @@
     <img src="./stats/github-stats.svg" width="700" alt="David's GitHub Stats" />
   </a>
 </p>
-
----
-
-## 🎯 Currently
-
-- 📚 Studying **Computer Engineering @ ESIC University**
-- 🛠️ Building new **Full Stack side projects**
-- ☁️ Learning more about **cloud architecture and deployment**
-- 🤖 Exploring **AI, automation and modern development tools**
-
----
 
 ## 📫 Let's Connect
 

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="401" viewBox="0 0 440 401" role="img" aria-label="Receipt Scanner — iOS app · OCR">
-<title>Receipt Scanner — iOS app · OCR</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Receipt Scanner — iOS app · OCR">
+<title>Receipt Scanner — iOS app · OCR (v1.0.0 · local demo)</title>
 <style>
 .rv-flow{stroke-dasharray:4 4;animation:rv-dash 1.2s linear infinite}
 .rv-draw{stroke-dasharray:320;stroke-dashoffset:320;animation:rv-draw 3.2s ease-in-out infinite}
@@ -14,39 +14,38 @@
 @media (prefers-reduced-motion:reduce){.rv-flow,.rv-draw,.rv-bar,.rv-scan,.rv-float{animation:none}.rv-draw{stroke-dashoffset:0}}
 </style>
 <defs>
-  <clipPath id="card"><rect width="440" height="401" rx="14"/></clipPath>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-    <path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  <clipPath id="card"><rect width="280" height="280" rx="12"/></clipPath>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#fff" stroke-opacity=".10"/>
   </pattern>
   <radialGradient id="glow" cx="50%" cy="120%" r="75%">
     <stop offset="0" stop-color="#2567ec" stop-opacity=".24"/><stop offset="1" stop-color="#2567ec" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#2567ec" flood-opacity=".4"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#2567ec" flood-opacity=".4"/>
   </filter>
 </defs>
 <g clip-path="url(#card)">
-  <rect width="440" height="401" fill="#232329"/>
-  <rect width="440" height="156" fill="url(#grid)"/>
-  <rect width="440" height="156" fill="url(#glow)"/>
-  <path d="M0 156H440" stroke="#fff" stroke-opacity=".10"/>
+  <rect width="280" height="280" fill="#232329"/>
+  <rect width="280" height="104" fill="url(#grid)"/>
+  <rect width="280" height="104" fill="url(#glow)"/>
+  <path d="M0 104H280" stroke="#fff" stroke-opacity=".10"/>
 </g>
-<g transform="translate(82 9) scale(1.15)" color="#2567ec" fill="none" stroke="currentColor"
-   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">
+<g transform="translate(44 4) scale(0.8)" color="#2567ec" fill="none" stroke="currentColor"
+   stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">
 <path d="M80 10h80v98l-8-6-8 6-8-6-8 6-8-6-8 6-8-6-8 6-8-6-8 6z" fill="currentColor" fill-opacity=".08"/>
 <path d="M90 22h40" opacity=".5"/><path d="M90 34h54" opacity=".5"/><path d="M90 46h30" opacity=".5"/><path d="M90 58h48" opacity=".5"/><path d="M90 70h36" opacity=".5"/>
 <path d="M90 86h60" stroke-width="3"/>
 <path d="M62 24V8h16M178 24V8h-16M62 96v16h16M178 96v16h-16" stroke-width="2"/>
 <rect class="rv-scan" x="66" y="8" width="108" height="2.5" rx="1" fill="currentColor" stroke="none"/></g>
-<text x="22" y="196" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="600" fill="#ededef">Receipt Scanner</text>
+<text x="16" y="134" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14.5" font-weight="600" fill="#ededef">Receipt Scanner</text>
 <g>
-  <rect x="262.6" y="179" width="155.4" height="24" rx="12" fill="#2567ec" fill-opacity=".10" stroke="#2567ec" stroke-opacity=".45"/>
-  <circle cx="276.6" cy="191" r="3" fill="#2567ec"/>
-  <text x="286.6" y="195" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#5d8ef1">v1.0.0 · local demo</text>
+  <rect x="200.8" y="120" width="63.2" height="20" rx="10" fill="#2567ec" fill-opacity=".10" stroke="#2567ec" stroke-opacity=".45"/>
+  <circle cx="211.8" cy="130" r="2.5" fill="#2567ec"/>
+  <text x="219.8" y="134" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#5d8ef1">v1.0.0</text>
 </g>
-<text x="22" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" letter-spacing=".66" fill="#5d8ef1">IOS APP · OCR</text>
-<text x="22" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">On-device receipt scanner: turns noisy OCR text into</text><text x="22" y="269" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">merchant, date, amount and currency with heuristic</text><text x="22" y="290" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">parsing.</text>
-<rect x="22.0" y="317" width="51.5" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="47.8" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Swift</text><rect x="79.5" y="317" width="64.9" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="112.0" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">SwiftUI</text><rect x="150.4" y="317" width="58.2" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="179.5" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Vision</text><rect x="214.6" y="317" width="78.3" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="253.8" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">VisionKit</text><rect x="298.9" y="317" width="78.3" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="338.1" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">SwiftData</text>
-<text x="22" y="377" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#5d8ef1">View on GitHub →</text>
-<rect x=".5" y=".5" width="439" height="400" rx="14" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<text x="16" y="154" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" letter-spacing=".6" fill="#5d8ef1">IOS APP · OCR</text>
+<text x="16" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#a1a1aa">On-device receipt OCR: merchant, date,</text><text x="16" y="195" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#a1a1aa">amount and currency.</text>
+<rect x="16.0" y="209" width="44.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="38.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">Swift</text><rect x="65.0" y="209" width="56.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="93.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">SwiftUI</text><rect x="126.0" y="209" width="50.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="151.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">Vision</text><rect x="181.0" y="209" width="68.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="215.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">VisionKit</text>
+<rect x=".5" y=".5" width="279" height="279" rx="12" fill="none" stroke="#fff" stroke-opacity=".12"/>
 </svg>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="401" viewBox="0 0 440 401" role="img" aria-label="TAB — iOS app · Offline-first">
-<title>TAB — iOS app · Offline-first</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="TAB — iOS app · Offline-first">
+<title>TAB — iOS app · Offline-first (v1.0.0 · local demo)</title>
 <style>
 .rv-flow{stroke-dasharray:4 4;animation:rv-dash 1.2s linear infinite}
 .rv-draw{stroke-dasharray:320;stroke-dashoffset:320;animation:rv-draw 3.2s ease-in-out infinite}
@@ -14,38 +14,37 @@
 @media (prefers-reduced-motion:reduce){.rv-flow,.rv-draw,.rv-bar,.rv-scan,.rv-float{animation:none}.rv-draw{stroke-dashoffset:0}}
 </style>
 <defs>
-  <clipPath id="card"><rect width="440" height="401" rx="14"/></clipPath>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-    <path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  <clipPath id="card"><rect width="280" height="280" rx="12"/></clipPath>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#fff" stroke-opacity=".10"/>
   </pattern>
   <radialGradient id="glow" cx="50%" cy="120%" r="75%">
     <stop offset="0" stop-color="#0b9486" stop-opacity=".24"/><stop offset="1" stop-color="#0b9486" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#0b9486" flood-opacity=".4"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#0b9486" flood-opacity=".4"/>
   </filter>
 </defs>
 <g clip-path="url(#card)">
-  <rect width="440" height="401" fill="#232329"/>
-  <rect width="440" height="156" fill="url(#grid)"/>
-  <rect width="440" height="156" fill="url(#glow)"/>
-  <path d="M0 156H440" stroke="#fff" stroke-opacity=".10"/>
+  <rect width="280" height="280" fill="#232329"/>
+  <rect width="280" height="104" fill="url(#grid)"/>
+  <rect width="280" height="104" fill="url(#glow)"/>
+  <path d="M0 104H280" stroke="#fff" stroke-opacity=".10"/>
 </g>
-<g transform="translate(82 9) scale(1.15)" color="#0b9486" fill="none" stroke="currentColor"
-   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">
+<g transform="translate(44 4) scale(0.8)" color="#0b9486" fill="none" stroke="currentColor"
+   stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">
 <rect x="90" y="10" width="60" height="30" rx="8" fill="currentColor" fill-opacity=".12"/>
 <circle cx="104" cy="25" r="6"/><path d="M116 22h22M116 29h14" opacity=".6"/>
 <path class="rv-flow" d="M120 40v22M120 62H50v20M120 62h70v20M120 62v20"/>
 <g><circle cx="50" cy="94" r="12" fill="currentColor" fill-opacity=".12"/><circle cx="50" cy="91" r="3.5"/><path d="M44 100a6 5 0 0 1 12 0"/></g><g><circle cx="120" cy="94" r="12" fill="currentColor" fill-opacity=".12"/><circle cx="120" cy="91" r="3.5"/><path d="M114 100a6 5 0 0 1 12 0"/></g><g><circle cx="190" cy="94" r="12" fill="currentColor" fill-opacity=".12"/><circle cx="190" cy="91" r="3.5"/><path d="M184 100a6 5 0 0 1 12 0"/></g></g>
-<text x="22" y="196" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="600" fill="#ededef">TAB</text>
+<text x="16" y="134" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14.5" font-weight="600" fill="#ededef">TAB</text>
 <g>
-  <rect x="262.6" y="179" width="155.4" height="24" rx="12" fill="#0b9486" fill-opacity=".10" stroke="#0b9486" stroke-opacity=".45"/>
-  <circle cx="276.6" cy="191" r="3" fill="#0b9486"/>
-  <text x="286.6" y="195" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#35a79b">v1.0.0 · local demo</text>
+  <rect x="200.8" y="120" width="63.2" height="20" rx="10" fill="#0b9486" fill-opacity=".10" stroke="#0b9486" stroke-opacity=".45"/>
+  <circle cx="211.8" cy="130" r="2.5" fill="#0b9486"/>
+  <text x="219.8" y="134" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#35a79b">v1.0.0</text>
 </g>
-<text x="22" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" letter-spacing=".66" fill="#35a79b">IOS APP · OFFLINE-FIRST</text>
-<text x="22" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">Offline expense splitting with SQLite, balances and</text><text x="22" y="269" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">safe editing; the sync engine is tested without a</text><text x="22" y="290" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#a1a1aa">public backend.</text>
-<rect x="22.0" y="317" width="51.5" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="47.8" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Swift</text><rect x="79.5" y="317" width="64.9" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="112.0" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">SwiftUI</text><rect x="150.4" y="317" width="58.2" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="179.5" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">SQLite</text><rect x="214.6" y="317" width="71.6" height="22" rx="6" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="250.4" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a1a1aa">Supabase</text>
-<text x="22" y="377" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#35a79b">View on GitHub →</text>
-<rect x=".5" y=".5" width="439" height="400" rx="14" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<text x="16" y="154" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" letter-spacing=".6" fill="#35a79b">IOS APP · OFFLINE-FIRST</text>
+<text x="16" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#a1a1aa">Offline expense splitting with SQLite,</text><text x="16" y="195" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#a1a1aa">balances and safe editing.</text>
+<rect x="16.0" y="209" width="44.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="38.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">Swift</text><rect x="65.0" y="209" width="56.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="93.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">SwiftUI</text><rect x="126.0" y="209" width="50.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="151.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">SQLite</text><rect x="181.0" y="209" width="62.0" height="19" rx="5" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".10"/><text x="212.0" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#a1a1aa">Supabase</text>
+<rect x=".5" y=".5" width="279" height="279" rx="12" fill="none" stroke="#fff" stroke-opacity=".12"/>
 </svg>

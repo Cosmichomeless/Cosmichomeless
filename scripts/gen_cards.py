@@ -14,10 +14,11 @@ from xml.sax.saxutils import escape
 
 OUT = Path(__file__).resolve().parent.parent / "projects"
 
-W = 440            # ancho de la tarjeta
-VIS_H = 156        # alto de la zona de la ilustración
-PAD = 22           # margen interior del cuerpo
-DESC_COLS = 52     # caracteres por línea de descripción (conservador)
+W = 280            # ancho de la tarjeta
+VIS_H = 104        # alto de la zona de la ilustración
+PAD = 16           # margen interior del cuerpo
+DESC_COLS = 38     # caracteres por línea de la frase corta (conservador)
+MAX_TECH = 4       # etiquetas de tecnología por tarjeta
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
@@ -68,6 +69,20 @@ REPOS = [
 ]
 
 BARS = [10, 18, 30, 22, 40, 56, 34, 62, 48, 26, 44, 66, 38, 20, 32, 52, 28, 16, 24, 12, 8, 6, 6, 6]
+
+# Frase corta de cada tarjeta compacta (clave = fichero)
+SHORT = {
+    "forge": "Project management for small teams, inspired by Linear and Jira.",
+    "queuelab": "Async jobs: REST API, RabbitMQ and a worker, with a status dashboard.",
+    "syncpad": "Real-time collaborative notes that also work offline.",
+    "tab": "Offline expense splitting with SQLite, balances and safe editing.",
+    "stride": "Running tracker with reliable background GPS and MapKit routes.",
+    "murmur": "Voice notes with a real-time waveform and local persistence.",
+    "receipt-scanner": "On-device receipt OCR: merchant, date, amount and currency.",
+    "atlas-ai": "Q&A over your documents with semantic search and cited answers.",
+    "magictap": "Tap to click for the Magic Mouse, as a macOS menu bar app.",
+    "tesela": "Finder-style tile file manager for the terminal, with real previews.",
+}
 
 
 def visual(kind: str) -> str:
@@ -198,23 +213,28 @@ def readable(hue: str) -> str:
 
 
 def chip_rows(tech, max_w):
-    """Reparte las etiquetas de tecnología en filas; devuelve [[(texto, x, ancho)]]."""
+    """Reparte las etiquetas en filas; devuelve [[(texto, x, ancho)]]."""
     rows, row, x = [], [], 0
     for t in tech:
-        w = len(t) * 6.7 + 18
+        w = len(t) * 6.0 + 14
         if row and x + w > max_w:
             rows.append(row)
             row, x = [], 0
         row.append((t, x, w))
-        x += w + 6
+        x += w + 5
     rows.append(row)
     return rows
 
 
 def layout(r):
-    lines = textwrap.wrap(r["desc"], DESC_COLS)
-    chips = chip_rows(r["tech"], W - 2 * PAD)
+    lines = textwrap.wrap(SHORT[r["file"]], DESC_COLS)
+    chips = chip_rows(r["tech"][:MAX_TECH], W - 2 * PAD)
     return lines, chips
+
+
+def body_height(r):
+    lines, chips = layout(r)
+    return 32 + 18 + 24 + len(lines) * 17 + 10 + len(chips) * 25 + 8
 
 
 def card(r, body_h):
@@ -222,38 +242,40 @@ def card(r, body_h):
     hue = r["hue"]
     ink = readable(hue)          # color del texto pequeño (más claro si el tono es oscuro)
     H = VIS_H + body_h
-    status_w = len(r["status"]) * 6.6 + 30
-    y_name = VIS_H + 40
-    y_type = y_name + 24
-    y_desc = y_type + 28
-    y_chips = y_desc + len(lines) * 21 + 6
-    y_cta = H - 24
+    version = r["status"].split(" · ")[0]
+    pill_w = len(version) * 6.2 + 26
+    y_name = VIS_H + 30
+    y_type = y_name + 20
+    y_desc = y_type + 24
+    y_chips = y_desc + (len(lines) - 1) * 17 + 14
 
     chip_svg = []
     for ri, row in enumerate(chips):
-        cy = y_chips + ri * 28
+        cy = y_chips + ri * 25
         for t, x, w in row:
             chip_svg.append(
-                f'<rect x="{PAD + x:.1f}" y="{cy}" width="{w:.1f}" height="22" rx="6" fill="#fff" fill-opacity=".05" '
+                f'<rect x="{PAD + x:.1f}" y="{cy}" width="{w:.1f}" height="19" rx="5" fill="#fff" fill-opacity=".05" '
                 f'stroke="#fff" stroke-opacity=".10"/>'
-                f'<text x="{PAD + x + w / 2:.1f}" y="{cy + 15}" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{MUTED}">{escape(t)}</text>')
+                f'<text x="{PAD + x + w / 2:.1f}" y="{cy + 13}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{MUTED}">{escape(t)}</text>')
     desc_svg = "".join(
-        f'<text x="{PAD}" y="{y_desc + i * 21}" font-family="{SANS}" font-size="13.5" fill="{MUTED}">{escape(l)}</text>'
+        f'<text x="{PAD}" y="{y_desc + i * 17}" font-family="{SANS}" font-size="12" fill="{MUTED}">{escape(l)}</text>'
         for i, l in enumerate(lines))
+    vis_scale = 0.8
+    vx, vy = (W - 240 * vis_scale) / 2, (VIS_H - 120 * vis_scale) / 2
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(r['title'])} — {escape(r['type'])}">
-<title>{escape(r['title'])} — {escape(r['type'])}</title>
+<title>{escape(r['title'])} — {escape(r['type'])} ({escape(r['status'])})</title>
 <style>{CSS}</style>
 <defs>
-  <clipPath id="card"><rect width="{W}" height="{H}" rx="14"/></clipPath>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-    <path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  <clipPath id="card"><rect width="{W}" height="{H}" rx="12"/></clipPath>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#fff" stroke-opacity=".10"/>
   </pattern>
   <radialGradient id="glow" cx="50%" cy="120%" r="75%">
     <stop offset="0" stop-color="{hue}" stop-opacity=".24"/><stop offset="1" stop-color="{hue}" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="{hue}" flood-opacity=".4"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="{hue}" flood-opacity=".4"/>
   </filter>
 </defs>
 <g clip-path="url(#card)">
@@ -262,36 +284,31 @@ def card(r, body_h):
   <rect width="{W}" height="{VIS_H}" fill="url(#glow)"/>
   <path d="M0 {VIS_H}H{W}" stroke="#fff" stroke-opacity=".10"/>
 </g>
-<g transform="translate({(W - 276) / 2:g} {(VIS_H - 138) / 2:g}) scale(1.15)" color="{hue}" fill="none" stroke="currentColor"
-   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">{visual(r['visual'])}</g>
-<text x="{PAD}" y="{y_name}" font-family="{MONO}" font-size="17" font-weight="600" fill="{FG}">{escape(r['title'])}</text>
+<g transform="translate({vx:g} {vy:g}) scale({vis_scale})" color="{hue}" fill="none" stroke="currentColor"
+   stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">{visual(r['visual'])}</g>
+<text x="{PAD}" y="{y_name}" font-family="{MONO}" font-size="14.5" font-weight="600" fill="{FG}">{escape(r['title'])}</text>
 <g>
-  <rect x="{W - PAD - status_w:.1f}" y="{y_name - 17}" width="{status_w:.1f}" height="24" rx="12" fill="{hue}" fill-opacity=".10" stroke="{hue}" stroke-opacity=".45"/>
-  <circle cx="{W - PAD - status_w + 14:.1f}" cy="{y_name - 5}" r="3" fill="{hue}"/>
-  <text x="{W - PAD - status_w + 24:.1f}" y="{y_name - 1}" font-family="{MONO}" font-size="11" fill="{ink}">{escape(r['status'])}</text>
+  <rect x="{W - PAD - pill_w:.1f}" y="{y_name - 14}" width="{pill_w:.1f}" height="20" rx="10" fill="{hue}" fill-opacity=".10" stroke="{hue}" stroke-opacity=".45"/>
+  <circle cx="{W - PAD - pill_w + 11:.1f}" cy="{y_name - 4}" r="2.5" fill="{hue}"/>
+  <text x="{W - PAD - pill_w + 19:.1f}" y="{y_name}" font-family="{MONO}" font-size="10" fill="{ink}">{escape(version)}</text>
 </g>
-<text x="{PAD}" y="{y_type}" font-family="{MONO}" font-size="11" letter-spacing=".66" fill="{ink}">{escape(r['type'].upper())}</text>
+<text x="{PAD}" y="{y_type}" font-family="{MONO}" font-size="10" letter-spacing=".6" fill="{ink}">{escape(r['type'].upper())}</text>
 {desc_svg}
 {''.join(chip_svg)}
-<text x="{PAD}" y="{y_cta}" font-family="{SANS}" font-size="13" font-weight="500" fill="{ink}">View on GitHub →</text>
-<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="14" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="#fff" stroke-opacity=".12"/>
 </svg>
 """
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    # Las dos tarjetas de cada fila comparten alto (el del contenido más largo).
-    for i in range(0, len(REPOS), 2):
-        pair = REPOS[i:i + 2]
-        body_h = 0
-        for r in pair:
-            lines, chips = layout(r)
-            need = 40 + 24 + 28 + len(lines) * 21 + 6 + len(chips) * 28 + 24 + 32
-            body_h = max(body_h, need)
-        for r in pair:
+    # Las tarjetas de cada fila de tres comparten alto (el del contenido más largo).
+    for i in range(0, len(REPOS), 3):
+        row = REPOS[i:i + 3]
+        body_h = max(body_height(r) for r in row)
+        for r in row:
             (OUT / f"{r['file']}.svg").write_text(card(r, body_h), encoding="utf-8")
-    print(f"{len(REPOS)} tarjetas generadas en {OUT}")
+    print(f"{len(REPOS)} tarjetas compactas generadas en {OUT}")
 
 
 if __name__ == "__main__":
