@@ -219,11 +219,7 @@
 
 <p align="center">
   <a href="https://github.com/Cosmichomeless">
-    <img
-      height="180"
-      src="https://github-readme-stats-eight-theta.vercel.app/api?username=Cosmichomeless&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"
-      alt="David's GitHub Stats"
-    />
+    <img src="./stats/github-stats.svg" width="700" alt="David's GitHub Stats" />
   </a>
 </p>
 
