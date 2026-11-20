@@ -17,8 +17,8 @@ OUT = Path(__file__).resolve().parent.parent / "projects"
 W = 280            # ancho de la tarjeta
 VIS_H = 104        # alto de la zona de la ilustración
 PAD = 16           # margen interior del cuerpo
-DESC_COLS = 38     # caracteres por línea de la frase corta (conservador)
-MAX_TECH = 4       # etiquetas de tecnología por tarjeta
+DESC_COLS = 34     # caracteres por línea de la frase corta (conservador)
+MAX_TECH = 3       # etiquetas de tecnología por tarjeta
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
@@ -216,12 +216,12 @@ def chip_rows(tech, max_w):
     """Reparte las etiquetas en filas; devuelve [[(texto, x, ancho)]]."""
     rows, row, x = [], [], 0
     for t in tech:
-        w = len(t) * 6.0 + 14
+        w = len(t) * 6.8 + 16
         if row and x + w > max_w:
             rows.append(row)
             row, x = [], 0
         row.append((t, x, w))
-        x += w + 5
+        x += w + 6
     rows.append(row)
     return rows
 
@@ -234,7 +234,7 @@ def layout(r):
 
 def body_height(r):
     lines, chips = layout(r)
-    return 32 + 18 + 24 + len(lines) * 17 + 10 + len(chips) * 25 + 8
+    return 34 + 22 + 28 + len(lines) * 20 + 12 + len(chips) * 29 + 10
 
 
 def card(r, body_h):
@@ -243,22 +243,22 @@ def card(r, body_h):
     ink = readable(hue)          # color del texto pequeño (más claro si el tono es oscuro)
     H = VIS_H + body_h
     version = r["status"].split(" · ")[0]
-    pill_w = len(version) * 6.2 + 26
-    y_name = VIS_H + 30
-    y_type = y_name + 20
-    y_desc = y_type + 24
-    y_chips = y_desc + (len(lines) - 1) * 17 + 14
+    pill_w = len(version) * 6.9 + 28
+    y_name = VIS_H + 32
+    y_type = y_name + 22
+    y_desc = y_type + 27
+    y_chips = y_desc + (len(lines) - 1) * 20 + 14
 
     chip_svg = []
     for ri, row in enumerate(chips):
-        cy = y_chips + ri * 25
+        cy = y_chips + ri * 29
         for t, x, w in row:
             chip_svg.append(
-                f'<rect x="{PAD + x:.1f}" y="{cy}" width="{w:.1f}" height="19" rx="5" fill="#fff" fill-opacity=".05" '
+                f'<rect x="{PAD + x:.1f}" y="{cy}" width="{w:.1f}" height="23" rx="6" fill="#fff" fill-opacity=".05" '
                 f'stroke="#fff" stroke-opacity=".10"/>'
-                f'<text x="{PAD + x + w / 2:.1f}" y="{cy + 13}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{MUTED}">{escape(t)}</text>')
+                f'<text x="{PAD + x + w / 2:.1f}" y="{cy + 15.5}" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{MUTED}">{escape(t)}</text>')
     desc_svg = "".join(
-        f'<text x="{PAD}" y="{y_desc + i * 17}" font-family="{SANS}" font-size="12" fill="{MUTED}">{escape(l)}</text>'
+        f'<text x="{PAD}" y="{y_desc + i * 20}" font-family="{SANS}" font-size="13.5" fill="{MUTED}">{escape(l)}</text>'
         for i, l in enumerate(lines))
     vis_scale = 0.8
     vx, vy = (W - 240 * vis_scale) / 2, (VIS_H - 120 * vis_scale) / 2
@@ -286,13 +286,13 @@ def card(r, body_h):
 </g>
 <g transform="translate({vx:g} {vy:g}) scale({vis_scale})" color="{hue}" fill="none" stroke="currentColor"
    stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">{visual(r['visual'])}</g>
-<text x="{PAD}" y="{y_name}" font-family="{MONO}" font-size="14.5" font-weight="600" fill="{FG}">{escape(r['title'])}</text>
+<text x="{PAD}" y="{y_name}" font-family="{MONO}" font-size="16.5" font-weight="600" fill="{FG}">{escape(r['title'])}</text>
 <g>
-  <rect x="{W - PAD - pill_w:.1f}" y="{y_name - 14}" width="{pill_w:.1f}" height="20" rx="10" fill="{hue}" fill-opacity=".10" stroke="{hue}" stroke-opacity=".45"/>
-  <circle cx="{W - PAD - pill_w + 11:.1f}" cy="{y_name - 4}" r="2.5" fill="{hue}"/>
-  <text x="{W - PAD - pill_w + 19:.1f}" y="{y_name}" font-family="{MONO}" font-size="10" fill="{ink}">{escape(version)}</text>
+  <rect x="{W - PAD - pill_w:.1f}" y="{y_name - 15}" width="{pill_w:.1f}" height="22" rx="11" fill="{hue}" fill-opacity=".10" stroke="{hue}" stroke-opacity=".45"/>
+  <circle cx="{W - PAD - pill_w + 11:.1f}" cy="{y_name - 4}" r="3" fill="{hue}"/>
+  <text x="{W - PAD - pill_w + 21:.1f}" y="{y_name}" font-family="{MONO}" font-size="11" fill="{ink}">{escape(version)}</text>
 </g>
-<text x="{PAD}" y="{y_type}" font-family="{MONO}" font-size="10" letter-spacing=".6" fill="{ink}">{escape(r['type'].upper())}</text>
+<text x="{PAD}" y="{y_type}" font-family="{MONO}" font-size="11" letter-spacing=".6" fill="{ink}">{escape(r['type'].upper())}</text>
 {desc_svg}
 {''.join(chip_svg)}
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="#fff" stroke-opacity=".12"/>
