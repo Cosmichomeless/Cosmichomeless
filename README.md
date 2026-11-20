@@ -237,11 +237,11 @@
 ## 📫 Let's Connect
 
 <p align="center">
-  <a href="https://iamcosmic.dev"><b>Portfolio</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/david-rodr/"><b>LinkedIn</b></a>
-  &nbsp;•&nbsp;
-  <a href="mailto:drodriguez1703@gmail.com"><b>Email</b></a>
+  <a href="https://iamcosmic.dev"><img src="./icons/portfolio.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;<b>Portfolio</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/david-rodr/"><img src="./icons/linkedin.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;<b>LinkedIn</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="mailto:drodriguez1703@gmail.com"><img src="./icons/email.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;<b>Email</b></a>
 </p>
 
 <p align="center">
